@@ -21,6 +21,7 @@ macro_rules! impl_ass_list{
         impl_ass!($from, u32);
         impl_ass!($from, u64);
         impl_ass!($from, u128);
+        impl_ass!($from, usize);
         impl_ass!($from, i8);
         impl_ass!($from, i16);
         impl_ass!($from, i32);
@@ -36,6 +37,7 @@ impl_ass_list!(u16);
 impl_ass_list!(u32);
 impl_ass_list!(u64);
 impl_ass_list!(u128);
+impl_ass_list!(usize);
 impl_ass_list!(i8);
 impl_ass_list!(i16);
 impl_ass_list!(i32);
