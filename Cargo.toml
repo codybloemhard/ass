@@ -1,12 +1,12 @@
 [package]
 name = "ass"
-version = "1.1.1"
+version = "1.1.2"
 authors = ["Cody Bloemhard <codybloemhard@gmail.com>"]
-edition = "2018"
+edition = "2021"
 description = "Useless crate for casting"
 license = "MIT"
 readme = "README.md"
-repository = "https://gitlab.com/codybloemhard/ass"
+repository = "https://github.com/codybloemhard/ass"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
